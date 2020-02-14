@@ -1,10 +1,12 @@
+# Hash Map
+
 ## Insert
 Key -> hash function -> hash map index -> value
+
 ### Collision
 * when different keys generate same hash map index, use link list to store them in same index, then iterate the list
 * to avoid collision, bigger hash map can reduce it, for example, if the data set that we have contain 10 element, we can create a 15 length array
 * better hash function to avoid collision
-
 
 ## Reading
 Same as insert, key -> hash function -> return hash map index -> get the value
@@ -62,3 +64,7 @@ hs.setItem('billy', 'snake');
 hs.setItem('Amy', 'cow');
 console.log(hs.table); // [ [ [ 'Bob', 'cat' ], [ 'Billy', 'sheep' ], [ 'billy', 'snake' ], [ 'Amy', 'cow' ] ], <2 empty items>, [ [ 'David', 'dog' ] ], <7 empty items> ]
 console.log(hs.getItem('Bob')); // cat
+```
+
+## Resource
+https://www.youtube.com/watch?v=F95z5Wxd9ks
