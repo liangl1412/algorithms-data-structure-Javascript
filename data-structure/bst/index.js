@@ -53,6 +53,9 @@ class BstTree {
         return current.data;
     }
     search = (data) => {
+        if (this.root === null) {
+            return false;
+        }
         const searchNode = (current) => {
             if (data === current.data) {
                 return current;
