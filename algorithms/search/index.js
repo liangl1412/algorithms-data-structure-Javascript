@@ -12,7 +12,6 @@ function binarySearchRec(start, end, list, lookUp) {
         // look to the right
         if (lookUp > midVal ) {
             return binarySearch(mid + 1, end, list, lookUp)
-            
         }
         // look to the left
         return binarySearch(start, mid - 1, list, lookUp)
