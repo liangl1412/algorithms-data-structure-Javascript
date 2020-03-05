@@ -9,7 +9,5 @@ Notes with learning algorithms &amp; data structure in javascript
 
 ### **Data Structure** 
 
-  1. [Hash Map](data-structure/hashMap/README.md)
-  1. [Set](data-structure/set/README.md)
-  1. [Stack](data-structure/stack/README.md)
-  1. [Binary Search Tree](data-structure/bst/README.md)
+[Data Structure](data-structure/README.md)
+
